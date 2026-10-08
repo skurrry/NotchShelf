@@ -1,0 +1,21 @@
+name: Feature request / Funktionswunsch
+description: Suggest an improvement / Verbesserung vorschlagen
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Problem or use case / Problem oder Anwendungsfall
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed solution / Vorgeschlagene Lösung
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives / Alternativen
+  - type: textarea
+    attributes:
+      label: Additional context / Zusätzlicher Kontext

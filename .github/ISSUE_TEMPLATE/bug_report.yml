@@ -1,0 +1,30 @@
+name: Bug report / Fehlerbericht
+description: Report a reproducible problem / Reproduzierbares Problem melden
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description / Beschreibung
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction steps / Schritte zur Reproduktion
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior / Erwartetes Verhalten
+  - type: textarea
+    attributes:
+      label: Actual behavior / Tatsächliches Verhalten
+  - type: input
+    attributes:
+      label: macOS version
+  - type: input
+    attributes:
+      label: Xcode version
+  - type: textarea
+    attributes:
+      label: Screenshots or logs / Screenshots oder Logs

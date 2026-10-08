@@ -1,0 +1,41 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Signing, credentials, and secrets
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.key
+.env
+.env.*
+!.env.example
+
+# Distribution artifacts
+*.dmg
+*.pkg
+Archives/
+Export/
+
+# Local tooling
+.vscode/
+.idea/

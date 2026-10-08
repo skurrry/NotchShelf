@@ -1,0 +1,25 @@
+name: NotchShelf
+options:
+  deploymentTarget:
+    macOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    ARCHS: arm64
+    CODE_SIGN_ENTITLEMENTS: NotchShelf/NotchShelf.entitlements
+targets:
+  NotchShelf:
+    type: application
+    platform: macOS
+    sources: [NotchShelf]
+    info:
+      path: NotchShelf/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.NotchShelf
+  NotchShelfTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [NotchShelfTests]
+    dependencies:
+      - target: NotchShelf
